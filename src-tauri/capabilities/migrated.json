@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/linux-schema.json",
+  "identifier": "migrated",
+  "description": "permissions that were migrated from v1",
+  "local": true,
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-size",
+    "fs:default",
+    "fs:scope-temp-recursive"
+  ]
+}
