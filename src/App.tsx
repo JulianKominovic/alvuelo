@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TrafficLights from "./components/TrafficLights";
 import { Chat } from "./components/ui/chat";
 import type { Message } from "./components/ui/chat-message";
 import { OpenAIClient } from "./integration/openai/client";
@@ -13,6 +14,7 @@ function App() {
 
 	return (
 		<div className="w-full h-full">
+			<TrafficLights />
 			{/* <form
 				onSubmit={(e) => {
 					e.preventDefault();

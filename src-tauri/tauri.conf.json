@@ -8,7 +8,7 @@
 	},
 	"bundle": {
 		"active": true,
-		"category": "DeveloperTool",
+		"category": "Productivity",
 		"copyright": "",
 		"targets": "all",
 		"externalBin": [],
@@ -40,10 +40,10 @@
 			}
 		}
 	},
-	"productName": "tauri-ts-react-vite-tailwind-extras",
-	"mainBinaryName": "tauri-ts-react-vite-tailwind-extras",
+	"productName": "Alvuelo",
+	"mainBinaryName": "alvuelo",
 	"version": "0.1.0",
-	"identifier": "com.tauri.dev",
+	"identifier": "dev.jkominovic.alvuelo",
 	"plugins": {},
 	"app": {
 		"withGlobalTauri": true,
@@ -57,7 +57,8 @@
 				"resizable": false,
 				"decorations": false,
 				"center": true,
-				"visible": true
+				"visible": true,
+				"alwaysOnTop": true
 			}
 		],
 		"security": {
