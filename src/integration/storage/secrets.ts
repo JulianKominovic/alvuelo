@@ -1,6 +1,6 @@
 import { load } from "@tauri-apps/plugin-store";
 
-const storage = await load("secrets.json", { autoSave: false });
+const storage = await load("secrets.json", { autoSave: true });
 
 function get(key: string) {
 	return storage.get(key);

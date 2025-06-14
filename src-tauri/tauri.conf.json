@@ -53,6 +53,7 @@
 				"fullscreen": false,
 				"height": 600,
 				"width": 300,
+				"transparent": true,
 				"resizable": false,
 				"decorations": false,
 				"center": true,
